@@ -1,0 +1,2 @@
+Ls, SD_Ls, Rseg, Rsoma, Nseg, SD_Nseg, Nbranch, SD_Nbranch, D, sphericity, Nspin, MCsteps
+20, 1E-6, 0.5, 2, 10, 1E-6, 2, 1E-6, 3, 0.95, 5000, 1000
