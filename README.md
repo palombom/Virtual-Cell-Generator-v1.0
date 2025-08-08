@@ -2,7 +2,7 @@
 This is a basic implementation of a generative model for synthetic neuron-like cells described in more details in Palombo M. et al. PNAS 2016 (https://doi-org.cardiff.idm.oclc.org/10.1073/pnas.1504327113) and Palombo M. et al. Neuorimage 2019 (https://doi.org/10.1016/j.neuroimage.2018.12.025).
 
 ## Dependencies
-To use the Cell Generator you will need a MATLAB distribution. Additionally, you will also need some external repositories that are already included in the Cell Generator repository:
+To use the Cell Generator you will need a MATLAB distribution. Additionally, you will also need some external repositories:
 * MISST from http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.MISST (included in this repository)
 * TREES from https://www.treestoolbox.org/ (included in this repository)
 * A modified version of Camino, included in this repository and modified from the original one at: http://camino.cs.ucl.ac.uk/ (included in this repository).
