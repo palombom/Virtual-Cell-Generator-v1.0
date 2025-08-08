@@ -51,7 +51,7 @@ If you use this Virtual Cell Generator, please remember to cite our main works:
 2. Palombo Marco, Daniel C. Alexander, and Hui Zhang. "A generative model of realistic brain cells with application to numerical simulation of the diffusion-weighted MR signal." NeuroImage 188 (2019): 391-402.
 
 ## License
-Virtual Cell Generator v1.0 is distributed under the BSD 2-Clause License (https://github.com/palombom/Cell-Generator-v1.0/blob/main/LICENSE), Copyright (c) 2019 Cardiff University and University College London. All rights reserved.
+Virtual Cell Generator v1.0 is distributed under the BSD 2-Clause License (https://github.com/palombom/Virtual-Cell-Generator-v1.0/blob/main/LICENSE), Copyright (c) 2019 Cardiff University and University College London. All rights reserved.
 
 **The use of the Virtual Cell Generator v1.0 MUST also comply with the individual licenses of all of its dependencies.**
 
