@@ -1,4 +1,4 @@
-# Cell Generator v1.0 
+# Virtual Cell Generator v1.0 
 This is a basic implementation of a generative model for virtual neuron-like cells described in more details in Palombo M. et al. PNAS 2016 (https://doi-org.cardiff.idm.oclc.org/10.1073/pnas.1504327113) and Palombo M. et al. Neuorimage 2019 (https://doi.org/10.1016/j.neuroimage.2018.12.025). If you use this code, please cite our related works (see Citation section below). 
 
 ## Dependencies
