@@ -3,9 +3,10 @@ This is a basic implementation of a generative model for synthetic neuron-like c
 
 ## Dependencies
 To use the Cell Generator you will need a MATLAB distribution. Additionally, you will also need some external repositories that are already included in the Cell Generator repository:
-* MISST from http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.MISST
-* TREES from https://www.treestoolbox.org/
-* A modified version of Camino, included in this repository and modified from the original one at: http://camino.cs.ucl.ac.uk/
+* MISST from http://mig.cs.ucl.ac.uk/index.php?n=Tutorial.MISST (included in this repository)
+* TREES from https://www.treestoolbox.org/ (included in this repository)
+* A modified version of Camino, included in this repository and modified from the original one at: http://camino.cs.ucl.ac.uk/ (included in this repository).
+* The LIBIGL library from https://libigl.github.io/ (not included in this repository). 
 
 ## Download 
 To get the Cell Generator clone this repository. The tools include all the necessary dependencies and should be ready for you to run.
