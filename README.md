@@ -23,9 +23,24 @@ $ git clone https://github.com/palombom/Cell-Generator-v1.0.git
 5. You should now be able to use the code. 
 
 ## Usage
-The function "CreateCellSubstrate" represents the core of the toolbox. It generates virtual substrates (£d surface meshes and corresponding SWC file) of neuron-like structure with pre-defined morphological characteristics. 
+The function "CreateCellSubstrate" represents the core of the toolbox. It generates virtual substrates (3D surface meshes and corresponding SWC file) of neuron-like structure with pre-defined morphological characteristics. These have to be defined in a "parameters_simulations.txt" file which contains in this order: 
 
-The function "main_simulations" shows an example of how to use "CreateCellSubstrate" to generate a virtual substrate and perform diffusion MRI simulations using single diffusion encoding (SDE) and double diffusion encoding (DDE) schemes via Monte Carlo simulations using Camino. However, you can use the generated substrates also with other Monte Carlo simulators of diffusion MRI signals, such as Disimpy (https://disimpy.readthedocs.io/en/latest/tutorial.html) or MCDC (https://github.com/jonhrafe/MCDC_Simulator_public).
+- substrate_folder: folder where the generated cellular digital substrate will be stored;
+- filename_substrate: the filename of the cellular digital substrate;
+- Ls: mean length of cellular projections in microns;
+- SD_Ls: standard deviation of length of cellular projections in microns;
+- Rseg: radius of cellular projections in microns;
+- Rsoma: radius of soma in microns;
+- Nseg: mean number of primary projections radiating from the soma (integer number);
+- SD_Nseg: standard deviation of primary projections radiating from the soma (integer number);
+- Nbranch: mean number of consecutive embranchments of cellular projections (integer number);
+- SD_Nbranch: standard deviation of number of consecutive embranchments of cellular projections (integer number);
+- sphericity: the sphericity factor of the soma: a fractional number between 0.01 and 0.99, where 0.99 is a perfect sphere while 0.01 is a deformed surface wrapping around the pcellular projections radiating from the soma.
+- Nspin: number of spins to initialize inside the substrate; useful for follow up Monte Carlo simulations.
+- method: can be 'random' or 'uniform', and defines the way the main cellular projections radiating from the soma are oriented in the space. 'random' randomly samples Nseg directions from the unitary sphere; while 'uniform' defines directions using the uniform point ditribution on the unitary sphere using electrostatic repulsion. 
+
+The function "main_simulations" shows an example of how to use "CreateCellSubstrate" to generate a virtual substrate and perform diffusion MRI simulations using single diffusion encoding (SDE) and double diffusion encoding (DDE) schemes via Monte Carlo simulations using Camino. You can find an example of the "parameters_simulations.txt" in this repository, which defines the initialization parameters for the simulation. 
+However, you can use the generated substrates also with other Monte Carlo simulators of diffusion MRI signals, such as Disimpy (https://disimpy.readthedocs.io/en/latest/tutorial.html) or MCDC (https://github.com/jonhrafe/MCDC_Simulator_public). 
 
 ## Citation
 If you use this Cell Generator, please remember to cite our main works:
