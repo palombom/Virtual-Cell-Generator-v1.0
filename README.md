@@ -45,7 +45,7 @@ The function "**CreateCellSubstrate**" represents the core of the toolbox. It ge
 The function "**main_simulations**" shows an example of how to use "CreateCellSubstrate" to generate a virtual substrate and perform diffusion MRI simulations using single diffusion encoding (SDE) and double diffusion encoding (DDE) schemes via Monte Carlo simulations using Camino. You can find an example of the "**parameters_simulations.txt**" in this repository, which defines the initialization parameters for the simulation. 
 However, you can use the generated substrates also with other Monte Carlo simulators of diffusion MRI signals, such as Disimpy (https://disimpy.readthedocs.io/en/latest/tutorial.html) or MCDC (https://github.com/jonhrafe/MCDC_Simulator_public). 
 
-**NOTE**: the 3D surface meshes generated are simplified meshes, using the minimum number of triangles per cell feature so to keep the computational cost of the Monte Carlo simulation the lowest possible. However, for more accurate 3D meshes, we recommend to use Blender version 3 or 4 and the SWC_mesher add-ons, available here: https://github.com/kdrsimsek.
+**NOTE**: the 3D surface meshes generated are simplified meshes, using the minimum number of triangles per cell feature so to keep the computational cost of the Monte Carlo simulation the lowest possible. However, for more accurate 3D meshes, we recommend to use Blender (available at https://www.blender.org/download/releases/) and the SWC_mesher add-ons (available at https://github.com/kdrsimsek for both Blender version 3.X and 4.X).
 
 ## Citation
 If you use this Virtual Cell Generator, please remember to cite our main works:
