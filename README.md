@@ -1,6 +1,5 @@
-# Virtual Cell Generator v1.0 
-This is a basic implementation of a generative model for virtual neuron-like cells described in more details in Palombo M. et al. PNAS 2016 (https://doi-org.cardiff.idm.oclc.org/10.1073/pnas.1504327113) and Palombo M. et al. Neuorimage 2019 (https://doi.org/10.1016/j.neuroimage.2018.12.025). If you use this code, please cite our related works (see Citation section below). <img align="right" src="https://github.com/palombom/Virtual-Cell-Generator-v1.0/blob/main/VirtualCellGenerator.png" width="400" height="400"> 
-
+# Virtual Cell Generator v1.0 <img align="right" src="https://github.com/palombom/Virtual-Cell-Generator-v1.0/blob/main/VirtualCellGenerator.png" width="250" height="700"> 
+This is a basic implementation of a generative model for virtual neuron-like cells described in more details in Palombo M. et al. PNAS 2016 (https://doi-org.cardiff.idm.oclc.org/10.1073/pnas.1504327113) and Palombo M. et al. Neuorimage 2019 (https://doi.org/10.1016/j.neuroimage.2018.12.025). If you use this code, please cite our related works (see Citation section below). 
 For queries or suggestions on how to improve this repository, please email: palombom@cardiff.ac.uk 
 
 ## Dependencies
